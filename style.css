@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #f4e4e4;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.form{
+    height: 100vh;
+    padding: 40px;
+
+
+   
+}
+.left-sections{
+   width: 50%;
+   height: 100vh;
+   background-color: white;
+}
+
+.right-sections{
+    width: 50%;
+    height: 100vh;
+     
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 40px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.image-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image{
+    border-radius: 50% 50% 0% 0%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    
+}
+.btn{
+    width: 30px;
+    height: 30px;
+    
+    border: none;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.counterBtn{
+    display: flex;
+}
+.counter h4{
+    margin: 10px 10px 10px 0px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+
+input[type="date"]{
+    width: 50%;
+    height: 30px;
+    padding: 0px;
+     
+    border: 1px solid black;
+}
+input[type="time"]{
+    width: 50%;
+    height: 30px;
+    padding: 0px;
+     
+    border: 1px solid black;
+}
+ .date-time{
+    display: flex;
+    gap: 20px;
+ }
+ textarea{
+    width: 100%;
+    height: 100px;
+    
+    resize: none;
+    outline: none;
+    border: none;
+   border-radius:5px;
+
+ }
+ .total-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+ .delivery{
+    display: flex;
+    justify-content: space-between;
+   
+ }
+ .price{
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ button[type="submit"]{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    padding: 15px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ input[type="text"]{
+    width: 100%;
+    height: 30px;
+   outline: none;
+   border: none;
+   border-radius: 3px;
+ }
+ input[type="radio"]{
+    width: 15px;
+    height: 15px;
+ }
+ input[type="date"]{
+    width: 100%;
+    border-radius: 3px;
+    border:none;
+ }
+ input[type="time"]{
+    width: 100%;
+    border-radius: 3px;
+    border:none;
+ }
+ 
+ .date{
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     gap: 10px;
+      
+ }
+  
+ 
+ .time{
+    display: flex;
+    flex-direction: column;
+     width: 500px;
+     gap: 10px;
+    
+ }
+ .check{
+    display: flex;
+     gap: 10px;
+    align-items: center;
+ }
+
+ .the-line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+ }
